@@ -168,7 +168,7 @@ client20.on('ready', () => {
     });
 //////////////////////////////////////////////////////////////////////////////////////////////////
 client1.on('message', message => {
-    if(message.author.id !== '516244688278257685') return;
+    if(message.author.id !== '506901011747569696') return;
     if(message.content.toLowerCase().split(' ')[0] == '1s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
